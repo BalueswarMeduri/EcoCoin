@@ -1,9 +1,11 @@
 import React from 'react'   
 import './About.css'
 import Navbar from '../../components/Navbar/Navbar'
+import Footer from '../../components/Footer/Footer'
 
 const About = () => {
   return (
+  <div>
     <div>
       <Navbar/>
       <div className="about">
@@ -14,6 +16,7 @@ const About = () => {
         <p>EcoCoin is a gamified platform designed to encourage and track your eco-friendly actions. Whether it's recycling, using public transport, or reducing energy usage, you earn EcoCoins for making green choices. These EcoCoins can be redeemed for discounts, products, or donations to environmental causes.</p>
       </div>
     </div>
+  </div>
   )
 }
 

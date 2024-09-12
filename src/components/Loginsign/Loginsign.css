@@ -80,7 +80,10 @@
   font-size: 0.75rem;
   margin-top: 0.5rem;
 }
-
+.remember-me label{
+  font-size: 1rem;
+  color: var(--green);
+}
 .remember-me input {
   margin-right: 0.5rem;
 }
@@ -127,10 +130,7 @@
   color: var(--green);
 }
 
-.social-icons {
-  display: flex;
-  justify-content: center;
-}
+
 
 .social-icons .icon {
   border-radius: 0.125rem;
@@ -165,16 +165,17 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   margin-top: 0.25rem;
-  border: 0.9px solid var(--green);
+  border: 2px solid var(--green);
   border-radius: 5px;
   padding: 10px;
+  background-color: var(--white);
 }
 
 .gender-group label {
   display: flex;
   align-items: center;
   margin-right: 1rem;
-  color: var(--grey);
+  color: var(--black);
 }
 
 .gender-group input {
@@ -211,6 +212,7 @@
   .forgot a,
   .signup a {
     font-size: 1rem !important;
+    cursor: pointer;
   }
 
   .sign {

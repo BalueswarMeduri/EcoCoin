@@ -1,6 +1,6 @@
 :root {
   --white: #fff;
-  --black: #000000;
+  --black:#191919;
   --blue: #3a80e9;
   --grey: #888;
   --darkgrey: #191818;
@@ -10,7 +10,7 @@
 
 /* Light Theme */
 .light-theme {
-  --white: #000000;
+  --white: #191919;
   --black: #fff;
   --blue: #3a80e9;
   --grey: #f1efef;

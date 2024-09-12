@@ -1,11 +1,14 @@
 .binboxforuploadimg {
   position: relative;
 }
-
+.carbon{
+  padding-top: 15rem;
+  padding-left: 60%;
+}
 .uploadimg {
   position: absolute;
   top: 5rem;
-  left: 50%;
+  left: 20%;
   transform: translateX(-50%);
   padding: 0px 2rem;
   text-align: center;
@@ -60,6 +63,17 @@
 .custum-file-upload input {
   display: none;
 }
+/* Button.css */
+/* Button.css */
+.toast-error {
+  background-color: #9c0e03 !important; /* Error background color */
+}
+
+.toast-error-body {
+  color: #ffffff !important; /* Black text color */
+}
+
+
 
 @media (min-width: 768px) {
   .uploadimg {
