@@ -3,7 +3,7 @@
     padding: 40px;
 }
 .topContainer{
-    padding-top: 13rem !important;
+    padding-top: 14rem !important;
 }
 .topContainer-text{
     color: white    ;
@@ -32,7 +32,8 @@
     height: 20vh;
     border-bottom: 2px solid var(--green);
 }
-.mainContainer{
+.mainContainerrr{
+    padding-top: 4rem;
     width: 100%;
     height: 70vh;
     display: flex;

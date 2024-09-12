@@ -16,7 +16,7 @@ const RedeemPage = () => {
                     <p>0</p>
                 </div>
             </div>
-            <div className="mainContainer">
+            <div className="mainContainerrr">
                 <div className="mainContainer-card">
                     <div className="card-img" id="card-img1">
                         <img src="https://cdn.brandfetch.io/id4J58sqa_/w/800/h/227/theme/dark/logo.png?k=id64Mup7ac&t=1674733845448?t=1674733845448" alt="" />
